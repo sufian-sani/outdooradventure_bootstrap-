@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,300;1,400&display=swap');
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-image: url(../img/child-5316045_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+.logo small{
+	letter-spacing: 1px;
+}
+
+#navbarNav ul li a{
+	color: #fff;
+	border: 2px solid #fff0;
+	border-radius: 30px;
+	font-weight: 500;
+}
+#navbarNav ul li a:hover{
+	border: 2px solid #fff;
+}
+#navbarNav ul li:last-child a{
+	border: 2px solid #fff;
+	border-radius: 30px;
+}
+
+.banner{
+	padding: 150px 0;
+}
+.banner h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+.banner span{
+	width: 100px;
+}
+.banner h1{
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.banner a{
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+/**Blockquote Section**/
+#blockquote{
+	background-color: #F4F5F9;
+}
+
+#blockquote blockquote{
+	color: #575863;
+}
+#blockquote span{
+	color: #8C949C;
+}
+
+/**Upcomming Section**/
+#upcoming-event .headding span{
+	width: 100px;
+}
+#upcoming-event .part-1 img{
+	box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+#upcoming-event .part-1 p{
+	color: #867268;
+}
+#upcoming-event .part-1 a{
+	letter-spacing: 3px;
+}
+/**Explore Section**/
+#explore{
+	background-image: url(../img/birds-5294537_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #68688e6b;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+#explore span{
+	width: 100px;
+}
+#explore p{}
+#explore a{
+	letter-spacing: 3px;
+}
+
+/**Tour Section**/
+#tours-section span{
+	width: 80px;
+}
+#tours-section p{}
+#tours-section a{
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+#tours-section .large{
+	height: 500px;
+	object-fit: cover;
+}
+#tours-section .small{
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+
+@media(max-width: 768px){
+	#header .logo-nav{
+		background: black;
+		opacity: 0.6;
+	}
+	#navbarNav ul li a{
+	color: #fff;
+	border: 1px solid #fff0;
+	border-radius: 3px;
+	font-weight: 500;
+	}
+	#navbarNav ul li a:hover{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	}
+	#navbarNav ul li:last-child a{
+	border: 1px solid #fff;
+	border-radius: 3px;
+	}
+	#header .banner-wrap{
+		display: none;
+	}
+
+	#explore{
+		display: none;
+	}
+}
